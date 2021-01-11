@@ -48,7 +48,6 @@
 (defconst drbr-git-packages
   '(
     ;; Git
-    (forge :location elpa)
     (ghub :location elpa)
     (magit-todos :location elpa)
     (magit-filenotify :location elpa)
@@ -80,10 +79,6 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
-(defun drbr-git/init-forge()
-  (use-package forge
-    :after magit))
-
 (defun drbr-git/init-ghub()
   (use-package ghub))
 
@@ -92,7 +87,6 @@ Each entry is either:
 
 (defun drbr-git/init-magit-filenotify()
   (use-package magit-filenotify))
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; packages.el ends here
