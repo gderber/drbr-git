@@ -48,6 +48,8 @@
 (configuration-layer/declare-layers
  '(
    drbr-common
+   git
+   github
    ))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
