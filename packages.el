@@ -49,7 +49,6 @@
   '(
     ;; Git
     (ghub :location elpa)
-    (magit-todos :location elpa)
     (magit-filenotify :location elpa)
     )
     "The list of Lisp packages required by the drbr layer.
