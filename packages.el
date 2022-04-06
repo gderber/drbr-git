@@ -48,9 +48,8 @@
 (defconst drbr-git-packages
   '(
     ;; Git
-    (ghub :location elpa)
-    (magit-todos :location elpa)
-    (magit-filenotify :location elpa)
+    ;;(ghub :location elpa)
+    ;;(magit-filenotify :location elpa)
     )
     "The list of Lisp packages required by the drbr layer.
 
@@ -79,14 +78,11 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
-(defun drbr-git/init-ghub()
-  (use-package ghub))
+;;(defun drbr-git/init-ghub()
+;;  (use-package ghub))
 
-(defun drbr-git/init-magit-todos()
-  (use-package magit-todos))
-
-(defun drbr-git/init-magit-filenotify()
-  (use-package magit-filenotify))
+;;(defun drbr-git/init-magit-filenotify()
+;;  (use-package magit-filenotify))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; packages.el ends here

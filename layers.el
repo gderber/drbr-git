@@ -52,17 +52,24 @@
 
    ;; 10. Programming  and markup languages
    c-c++
+   csv
    emacs-lisp
+   graphviz
    html
+   markdown
    lua
    php
    (python :variables
+           python-backend 'anaconda
            python-test-runner 'pytest
+           python-format-on-save t
+           python-sort-imports-on-save t
+           python-fill-column 100
            python-spacemacs-indent-guess nil)
-
-   sql
+   shell-scripts
+   ;;sql
    windows-scripts
-
+   yaml
    ))
 
 
