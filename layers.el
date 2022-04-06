@@ -49,7 +49,6 @@
  '(
    drbr-common
    git
-   github
 
    ;; 10. Programming  and markup languages
    c-c++
