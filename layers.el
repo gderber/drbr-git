@@ -48,7 +48,6 @@
 (configuration-layer/declare-layers
  '(
    drbr-common
-   git
 
    ;; 10. Programming  and markup languages
    c-c++
