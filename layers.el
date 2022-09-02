@@ -47,9 +47,36 @@
 
 (configuration-layer/declare-layers
  '(
+   ;; 1.
    drbr-common
 
-   ;; 10. Programming  and markup languages
+   ;; 2. Chats
+
+   ;; 3. Checkers
+
+   ;; 4. Completion
+
+   ;; 5. Email
+
+   ;; 6. Emacs
+
+   ;; 7. File trees
+
+   ;; 8. Fonts
+
+   ;; 9. Fun
+
+   ;; 10. Internationalization
+
+   ;; 11. Misc
+
+   ;; 12. Music
+
+   ;; 13. Operating Systems
+
+   ;; 14. Pair programming
+
+   ;; 15. Programming Languages
    c-c++
    csv
    emacs-lisp
@@ -69,6 +96,27 @@
    ;;sql
    windows-scripts
    yaml
+
+   ;; 16. Readers
+
+   ;; 17.
+
+   ;; 18. Source Control
+   (git :variables
+        git-enable-magit-gitflow-plugin t
+        git-enable-magit-delta-plugin t
+        git-enable-magit-todos-plugin t)
+
+   ;; 19. Spacemacs
+
+   ;; 20. Tagging
+
+   ;; 21. Themes
+
+   ;; 22. Tools
+   cmake
+   debug
+
    ))
 
 

@@ -45,6 +45,11 @@
 ;; 
 ;;; Code:
 (setq-default git-magit-status-fullscreen t)
-(setq-default global-git-commit-mode t)
+(setq auth-sources '("~/.authinfo.gpg"))
+
+(setq magit-repository-directories
+      '(("~/Documents/Development/" . 2) ("~/Documents/Org" . 2)))
+
+(setq  forge-topic-list-limit '(100 . 0))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; config.el ends here
